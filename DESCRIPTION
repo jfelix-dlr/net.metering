@@ -1,0 +1,22 @@
+Package: net.metering
+Title: Net Metering Data by U.S. Utility, 2011-2024
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jesus", "Felix De Los Reyes","Humberto" ,"jfelixdlr@gmail.com", role = c("aut", "cre"))
+Description: Provides a monthly panel dataset on net metering activity by 
+    U.S. electric utility from 2011 to 2024. Includes energy sold back to 
+    utilities by residential net metering customers (solar and wind), installed net 
+    metering capacity, enrolled customer counts, utility revenue and sales, 
+    electricity pricing, net energy generation payment structures (retail, 
+    avoided cost, feed-in tariff), and local income and climate conditions 
+    (temperature, radiation, cloud coverage) within each utility's service 
+    boundaries. Source data compiled from the U.S. Energy Information 
+    Administration (EIA), U.S. Census Bureau, Copernicus Climate Data Store, 
+    and NCEP-DOE AMIP-II Reanalysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+LazyData: true
